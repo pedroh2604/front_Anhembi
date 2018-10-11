@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <!-- Hack Brazil meta... better leave it here for reference -->
-   <!--  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- Content Type Meta tag -->
     <meta charset="utf-8">
 
     <!--Responsive Viewport Meta tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Anhembi - Ciência da Computação</title>
 
     <!-- Bootstrap -->
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Maps API -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -76,7 +77,6 @@
           <div class="banner-sub-heading">
             Reconhecido Pelo MEC
           </div>
-          <button type="button" class="btn btn-warning text-dark btn-banner">Get started</button>
         </div>
       </div>
     </div>
@@ -84,51 +84,124 @@
     <!-- sobre o curso -->
     <div class="container" id="sobre">
       <div class="row">
-        <!-- <section id="about">
-          <div class="container">
-            <div class="text-intro">
-              <h2>About Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+        <!-- video -->
+        <div class="col-md-8 sobre-video">
+          <iframe width="680" height="415" src="https://www.youtube.com/embed/LGnL4vf4lSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <!-- course info -->
+        <div class="col-md-4 sobre-texto">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <div class="row">
+
+                <!-- Modalidade -->
+                <div class="col-md-2">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="col-md-10">
+                  <p>Modalidade: Presencial</p>
+                </div>
+
+                <!--Tipo -->
+                <div class="col-md-2">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="col-md-10">
+                  <p>Tipo de Curso: Bacharelado</p>
+                </div>
+
+                <!--Duração -->
+                <div class="col-md-2">
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="col-md-10">
+                  <p>Duração: 8 semestres</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <a href="http://portal.anhembi.br/wp-content/uploads/2018/05/GUIA-DE-CURSO_CCO_2018-UAM-revisada.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Guia Rápido</a>
             </div>
           </div>
-        </section> -->
-
-        <div class="col-md-6 sobre-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LGnL4vf4lSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-
-        <div class="col-md-5 offset-md-1">
-          <p class="sobre-texto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sem purus, sodales et metus sit amet, consequat pretium ligula. Donec massa diam, malesuada id volutpat interdum, congue eget neque. Integer ut felis laoreet ex luctus porttitor. Donec in bibendum justo. Quisque id condimentum neque. Fusce nec lacinia metus. Ut id tortor id urna consectetur tempor. Duis pellentesque erat at nibh iaculis, sit amet porta justo sollicitudin. Fusce purus tellus, tempus ut tellus vel, consequat faucibus eros. Sed gravida velit id vulputate mattis. Proin ac elit id turpis malesuada commodo. In efficitur quis sapien elementum facilisis. Ut molestie nec dolor nec sodales. Vivamus porttitor eros quis purus condimentum vulputate. Nullam in tempor magna.
-          </p>
-        </div>
-
-        <div class="col-12 sobre-porque">
-          <h3>Por que na Anhembi?</h3>
-        </div>
-
-        <div class="col-md-6">
-          <img src="img/sobre/sobre.jpg" alt="sobre" class="sobre-img">
-          <img src="img/sobre/sobre-1.jpg" alt="sobre1" class="sobre-img-1">
-        </div>
-        <div class="col-md-6">
-          <p>
-            O curso de Ciência da Computação da Anhembi Morumbi, desde o primeiro semestre, visa estimular o desenvolvimento de mão de obra especializada, direcionada ao aprendizado das mais modernas e inovadoras tecnologias e metodologias do mercado, como a linguagem de programação Java, programação para dispositivos móveis e web, favorecendo uma total sintonia com as exigências da área.
-
-            Além disso, o curso proporciona o desenvolvimento de metodologias de sistemas focados em inteligência e estratégias de negócios, o que vai torná-lo um profissional capaz de propor soluções adequadas às necessidades das organizações.
-
-            O curso de Ciência da Computação da Anhembi Morumbi possui um projeto inovador e alinhado às novas tecnologias do segmento. Por isso, a Universidade foi escolhida pela multinacional indiana Tata Consultancy Services (TCS), uma das maiores empresas de desenvolvimento de software do mundo, para uma parceria que possibilita o treinamento dos estudantes, viabilizando, também, oportunidades de emprego aos mesmos.
-
-            Além da TCS, o curso também possui parcerias estratégicas com as empresas Sun, IBM, EMC, RIM, Cisco, NVIDIA Oracle, Microsoft e Grupo Sonda IT e essas parcerias visam  formar profissionais alinhados com as necessidades e expectativas do mercado de trabalho.
-
-            Para estimular o amplo aprendizado do estudante, o curso apoia a participação em competições de programação, como a Olimpíada Brasileira de Informática (OBI), a Maratona de Programação da ACM (Association Computing Machinery) e o Image Cup, reconhecidos como importantes torneios do segmento.
-
-            O curso também é parceiro de eventos de destaque na área da Informática, como o Open TDC, TDC  e Profissão Java, que reúnem usuários, programadores, gerentes e pesquisadores da Tecnologia em Java em São Paulo. Além de workshops sobre tecnologias, em conjunto com empresas parceiras, e sobre o mercado de trabalho na área da Computação.
-          </p>
         </div>
       </div>
-    </div>
-    
+
+        <!-- campus -->
+        <div class="sobre-slider">
+
+          <!-- Paulista 1 -->
+          <div class="col-sm-4">
+            <div class="card sobre-card">
+              <img class="sobre-card-img" src="img/sobre/paulista-1.jpg" alt="paulista-1">
+              <div class="card-body">
+                <h5 class="card-title sobre-card-title text-center">Paulista 1</h5>
+                <p class="sobre-card-text text-center">Matutino</p>
+                <p class="text-center">R$1.240,00</p>
+                <p class="text-center">09h00 às 11h50</p>
+                <a href="http://portal.anhembi.br/bolsas-e-descontos">Confira opções de bolsas e financiamentos</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Paulista 2 -->
+          <div class="col-sm-4 offset-sm-1">
+            <div class="card sobre-card">
+              <img class="sobre-card-img" src="img/sobre/paulista-2.jpg" alt="paulista-2">
+              <div class="card-body">
+                <h5 class="card-title sobre-card-title text-center">Paulista 2</h5>
+                <p class="sobre-card-text text-center">Noturno</p>
+                <p class="text-center">R$1.385,00</p>
+                <p class="text-center">19h00 às 21h50</p>
+                <a href="http://portal.anhembi.br/bolsas-e-descontos">Confira opções de bolsas e financiamentos</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vila Olimpia -->
+          <div class="col-sm-4 offset-sm-1">
+            <div class="card sobre-card">
+              <img class="sobre-card-img" src="img/sobre/vila-olimpia.jpg" alt="vila-olimpia">
+              <div class="card-body">
+                <h5 class="card-title sobre-card-title text-center">Vila Olimpia</h5>
+                <p class="sobre-card-text text-center">Noturno</p>
+                <p class="text-center">R$1352,00</p>
+                <p class="text-center">19h00 às 1h50</p>
+                <a href="http://portal.anhembi.br/bolsas-e-descontos">Confira opções de bolsas e financiamentos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- why Anhembi-->
+        <div class="row">
+          <div class="col-sm-12 sobre-porque">
+            <h3>Por que na Anhembi?</h3>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <img src="img/sobre/sobre.jpg" alt="sobre" class="sobre-img">
+            <img src="img/sobre/sobre-1.jpg" alt="sobre-1" class="sobre-img-1">
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p class="text-justify">
+              O curso de Ciência da Computação da Anhembi Morumbi, desde o primeiro semestre, visa estimular o desenvolvimento de mão de obra especializada, direcionada ao aprendizado das mais modernas e inovadoras tecnologias e metodologias do mercado, como a linguagem de programação Java, programação para dispositivos móveis e web, favorecendo uma total sintonia com as exigências da área.
+
+              Além disso, o curso proporciona o desenvolvimento de metodologias de sistemas focados em inteligência e estratégias de negócios, o que vai torná-lo um profissional capaz de propor soluções adequadas às necessidades das organizações.
+
+              O curso de Ciência da Computação da Anhembi Morumbi possui um projeto inovador e alinhado às novas tecnologias do segmento. Por isso, a Universidade foi escolhida pela multinacional indiana Tata Consultancy Services (TCS), uma das maiores empresas de desenvolvimento de software do mundo, para uma parceria que possibilita o treinamento dos estudantes, viabilizando, também, oportunidades de emprego aos mesmos.
+
+              Além da TCS, o curso também possui parcerias estratégicas com as empresas Sun, IBM, EMC, RIM, Cisco, NVIDIA Oracle, Microsoft e Grupo Sonda IT e essas parcerias visam  formar profissionais alinhados com as necessidades e expectativas do mercado de trabalho.
+
+              Para estimular o amplo aprendizado do estudante, o curso apoia a participação em competições de programação, como a Olimpíada Brasileira de Informática (OBI), a Maratona de Programação da ACM (Association Computing Machinery) e o Image Cup, reconhecidos como importantes torneios do segmento.
+
+              O curso também é parceiro de eventos de destaque na área da Informática, como o Open TDC, TDC  e Profissão Java, que reúnem usuários, programadores, gerentes e pesquisadores da Tecnologia em Java em São Paulo. Além de workshops sobre tecnologias, em conjunto com empresas parceiras, e sobre o mercado de trabalho na área da Computação.
+            </p>
+          </div>
+        </div>
+      </div>
+
     <!-- carreira -->
     <div class="container" id="carreira">
       <div class="row">
@@ -139,7 +212,7 @@
           <img src="img/carreira/carreira.jpg" alt="carreira" class="carreira-img">
         </div>
         <div class="col-md-6">
-          <p>
+          <p class="text-justify">
             O bacharel em Ciência da Computação é o profissional que elabora os mais diversos softwares, desde sistemas de gestão até aplicativos para web e celulares. Para este profissional, o mercado de trabalho é bastante amplo, oferecendo oportunidades de atuação na indústria, em bancos, comércio, hospitais e nos mais diversos lugares que  que necessitem da automatização de seus negócios.
 
             Além disso, ele é o responsável por auxiliar usuários e empresas na aquisição de equipamentos e softwares que atendam às  mais diferentes necessidades. Por este motivo,  pode, também, atuar nas áreas de assessoria e consultoria a empresas.
@@ -182,7 +255,7 @@
         <div class="grade-slider">
 
           <!-- 1° semestre -->
-          <div class="col-md-4 offset-md-1">
+          <div class="col-md-4">
             <div class="card grade-card">
               <img class="grade-card-img" src="img/grade/grade-card-img-1.jpg" alt="Card image cap">
               <div class="card-body">
@@ -249,6 +322,7 @@
             </div>
           </div>
 
+          <!-- 5° semestre -->
           <div class="col-md-4 offset-md-1">
             <div class="card grade-card">
               <img class="grade-card-img" src="img/grade/grade-card-img-5.jpg" alt="Card image cap">
@@ -265,6 +339,7 @@
             </div>
           </div>
 
+          <!-- 6° semestre -->
           <div class="col-md-4 offset-md-1">
             <div class="card grade-card">
               <img class="grade-card-img" src="img/grade/grade-card-img-6.jpg" alt="Card image cap">
@@ -281,6 +356,7 @@
             </div>
           </div>
 
+          <!-- 7° semestre -->
           <div class="col-md-4 offset-md-1">
             <div class="card grade-card">
               <img class="grade-card-img" src="img/grade/grade-card-img-7.jpg" alt="Card image cap">
@@ -297,6 +373,7 @@
             </div>
           </div>
 
+          <!-- 8° semestre -->
           <div class="col-md-4 offset-md-1">
             <div class="card grade-card">
               <img class="grade-card-img" src="img/grade/grade-card-img-8.jpg" alt="Card image cap">
@@ -321,17 +398,18 @@
     <div class="container" id="corpo">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="corpo-docente-titulo">Corpo Docente</h3>
+          <h3 class="corpo-docente-titulo">Coordenação</h3>
         </div>
+
         <!-- Augusto -->
-        <div class="col-md-4 offset-md-2">
+        <div class="col-md-5 offset-md-1">
           <div class="card corpo-docente-card">
-            <img class="corpo-docente-card-img offset-md-4" src="img/corpo-docente/corpo-docente-1.jpg" alt="Card image cap">
+            <img class="corpo-docente-card-img mx-auto" src="img/corpo-docente/corpo-docente-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title corpo-docente-card-title">Prof. Augusto Mendes Gomes Júnior</h5>
-              <p class="card-text corpo-docente-card-text">Doutor e Mestre em Engenharia Elétrica com ênfase em Computação pela Escola Politécnica da USP. Bacharel em Ciência da Computação pela Universidade Estadual de Maringá. Atuou em projetos, de Processamento de Alto Desempenho e Sistemas Distribuídos, vinculados à Petrobras. Professor da Universidade Anhembi Morumbi desde 2004.</p>
+              <p class="card-text corpo-docente-card-text text-justify">Doutor e Mestre em Engenharia Elétrica com ênfase em Computação pela Escola Politécnica da USP. Bacharel em Ciência da Computação pela Universidade Estadual de Maringá. Atuou em projetos, de Processamento de Alto Desempenho e Sistemas Distribuídos, vinculados à Petrobras. Professor da Universidade Anhembi Morumbi desde 2004.</p>
               <div class="corpo-docente-card-button offset-md-3">
-                <a href="#" class="btn btn-primary corpo-docente-card-btn">Enviar Mensagem</a>
+                <a href="#" class="btn btn-primary corpo-docente-card-btn"><i class="fas fa-envelope"></i> Enviar Mensagem</a>
               </div>
             </div>
           </div>
@@ -340,12 +418,12 @@
         <!-- Ricardo -->
         <div class="col-md-5 offset-md-1">
           <div class="card corpo-docente-card">
-            <img class="corpo-docente-card-img offset-md-4" src="img/corpo-docente/corpo-docente-2.png" alt="Card image cap">
+            <img class="corpo-docente-card-img mx-auto" src="img/corpo-docente/corpo-docente-2.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title corpo-docente-card-title">Prof. Ricardo de Almeida Pinto</h5>
-              <p class="card-text corpo-docente-card-text-1">Possui Mestrado em Engenharia Elétrica pela Escola Politécnica da USP, com ênfase em Microeletrônica. Tem experiência na área de Engenharia de Materiais e Metalúrgica, Elétrica e Física da Matéria Condensada, com ênfase em Materiais Vítreos Para Optoeletrônica e Fotônica, atuando principalmente nos seguintes temas: produção e caracterização de materiais vítreos de óxidos de metais pesados com íons de terras-raras contendo nanoestruturas metálicas. É docente da Universidade Anhembi Morumbi desde 2013.</p>
+              <p class="card-text corpo-docente-card-text-1 text-justify">Possui Mestrado em Engenharia Elétrica pela Escola Politécnica da USP, com ênfase em Microeletrônica. Tem experiência na área de Engenharia de Materiais e Metalúrgica, Elétrica e Física da Matéria Condensada, com ênfase em Materiais Vítreos Para Optoeletrônica e Fotônica, atuando principalmente nos seguintes temas: produção e caracterização de materiais vítreos de óxidos de metais pesados com íons de terras-raras contendo nanoestruturas metálicas. É docente da Universidade Anhembi Morumbi desde 2013.</p>
               <div class="offset-md-3">
-                <a href="#" class="btn btn-primary corpo-docente-card-btn-1">Enviar Mensagem</a>
+                <a href="#" class="btn btn-primary corpo-docente-card-btn-1"><i class="fas fa-envelope"></i> Enviar Mensagem</a>
               </div>
             </div>
           </div>
@@ -359,15 +437,15 @@
         <div class="col-md-12">
           <h3 class="localizacao-titulo">Localização</h3>
         </div>
-        <div class="col-md-3 offset-md-1 localizacao-map">
+        <div class="col-md-4 offset-sm-6 offset-md-0 localizacao-map">
           <h4>Paulista 1</h4>
           <div id="paulista1" class="localizacao-map-card"></div>
         </div>
-        <div class="col-md-3 offset-md-1 localizacao-map">
+        <div class="col-md-4 localizacao-map">
           <h4>Paulista 2</h4>
           <div id="paulista2" class="localizacao-map-card"></div>
         </div>
-        <div class="col-md-3 offset-md-1 localizacao-map">
+        <div class="col-md-4 localizacao-map">
           <h4>Vila Olímpia</h4>
           <div id="vilaOlimpia" class="localizacao-map-card"></div>
         </div>
@@ -383,14 +461,14 @@
         <div class="intercambio-slider">
 
           <!-- Universidad Andrés Bello (UNAB) -->
-          <div class="col-md-4 offset-md-1">
+          <div class="col-md-4">
             <div class="card intercambio-card">
               <img class="intercambio-card-img" src="img/intercambio/intercambio-1.jpg" alt="intercambio-1">
               <div class="card-body">
                 <h5 class="card-title intercambio-card-title"><a href="http://www.unab.cl/">Universidad Andrés Bello (UNAB)</a></h5>
                 <p class="intercambio-card-text">Chile - Espanhol</p>
                 <div class="offset-md-3">
-                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UNAB-CHILE.ppsx" class="btn btn-primary intercambio-card-btn">Apresentação</a>
+                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UNAB-CHILE.ppsx" class="btn btn-primary intercambio-card-btn"><i class="fas fa-images"></i> Apresentação</a>
                 </div>
               </div>
             </div>
@@ -404,7 +482,7 @@
                 <h5 class="card-title intercambio-card-title"><a href="http://www.ulatina.ac.cr/">Universidad Latina de Costa Rica (Ulatina)</a></h5>
                 <p class="intercambio-card-text">Costa Rica - Espanhol</p>
                 <div class="offset-md-3">
-                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/ULATINA-COSTA-RICA.ppsx" class="btn btn-primary intercambio-card-btn">Apresentação</a>
+                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/ULATINA-COSTA-RICA.ppsx" class="btn btn-primary intercambio-card-btn"><i class="fas fa-images"></i> Apresentação</a>
                 </div>
               </div>
             </div>
@@ -418,7 +496,7 @@
                 <h5 class="card-title intercambio-card-title"><a href="http://www.unab.cl/">Universidad del Valle de México (UVM)</a></h5>
                 <p class="intercambio-card-text">México - Espanhol</p>
                 <div class="offset-md-3">
-                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UVM-MEXICO.ppsx" class="btn btn-primary intercambio-card-btn">Apresentação</a>
+                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UVM-MEXICO.ppsx" class="btn btn-primary intercambio-card-btn"><i class="fas fa-images"></i> Apresentação</a>
                 </div>
               </div>
             </div>
@@ -432,7 +510,7 @@
                 <h5 class="card-title intercambio-card-title"><a href="http://www.uip.edu.pa/">Universidad Interamericana de Panamá (UIP)</a></h5>
                 <p class="intercambio-card-text">Panamá - Espanhol</p>
                 <div class="offset-md-3">
-                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UIP-PANAMA.ppsx" class="btn btn-primary intercambio-card-btn">Apresentação</a>
+                  <a href="http://portal.anhembi.br/wp-content/uploads/2017/12/UIP-PANAMA.ppsx" class="btn btn-primary intercambio-card-btn"><i class="fas fa-images"></i> Apresentação</a>
                 </div>
               </div>
             </div>
@@ -444,8 +522,11 @@
         </div>
       </div>
     </div>
-    <!-- footer --> 
 
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
