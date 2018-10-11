@@ -35,11 +35,7 @@
 	.banner-text{
 	padding:150px 0 150px 0;
 }
-.banner-heading{
-	font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
+
 .banner-sub-heading{
 	font-size: 10px;
     font-weight: 200;
@@ -55,14 +51,14 @@
 ** Banner
 */
 	.banner-text{
-	padding:150px 0 150px 0;
+		padding:150px 0 150px 0;
 }
-
+	
 	.banner-sub-heading{
-	font-size: 23px;
-    font-weight: 200;
-    line-height: 23px;
-    margin-bottom: 40px;
+		font-size: 23px;
+	    font-weight: 200;
+	    line-height: 23px;
+	    margin-bottom: 40px;
 }
 
 /**
@@ -74,9 +70,6 @@
 
 	.sobre-texto-info, .sobre-texto-btn {
 		margin-left: 90px;
-	}
-	.sobre-card {
-		margin-right: 30px;
 	}
 
 	.sobre-img {
@@ -104,7 +97,7 @@
 */
 
 	.localizacao-map-card {
-		margin-left: 35px;
+		margin-left: 25px;
 	}
 
 }
@@ -174,8 +167,8 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .banner-heading{
 	font-family: 'Lobster', cursive;
-	font-size: 75px;
-    font-weight: 700;
+	font-size: 60px;
+    font-weight: 600;
     line-height: 100px;
     margin-bottom: 30px;
 	color:#fff;
