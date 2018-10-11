@@ -202,19 +202,23 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 div.grade-slider::-webkit-scrollbar {
 	width: 10px;
-	height: 10px; }
+	height: 10px; 
+}
 
 div.grade-slider::-webkit-scrollbar-track {
 	border: 1px solid #ccc;
-	border-radius: 10px; }
+	border-radius: 10px; 
+}
 
 div.grade-slider::-webkit-scrollbar-thumb {
 	background: #0C0900;
-	border-radius: 10px; }
+	border-radius: 10px; 
+}
 
 div.grade-slider::-webkit-scrollbar-thumb:hover {
-	background: #0C0900; }
-	
+	background: #0C0900; 
+}
+
 .grade-card {
 	width: 350px;
 	height: 550px;
@@ -243,19 +247,28 @@ div.grade-slider::-webkit-scrollbar-thumb:hover {
 */
 
 .corpo-docente-card {
-	height: 600px;
+	width: 350px;
+	height: 680px;
 	border-radius: 16px;
+	background-color: #fff;
+	border: solid 1px rgba(46, 46, 71, 0.08);
+	margin-bottom: 40px;
 }
 
 .corpo-docente-card-img {
- 	border-radius: 16px;
- }
-.corpo-docente-card-title, .corpo-docente-card-text {
-	margin-top: 15px;
+	object-fit: cover;
+	width: 120px;
+	height: 120px;
+	border-radius: 50px;
+	margin-top: 10px;
 }
 
-.corpo-docente-card-button {
-	margin-top: 30px;
+.corpo-docente-card-title, .corpo-docente-card-text-1, .corpo-docente-card-btn-1 {
+	margin-top: 20px;
+}
+
+.corpo-docente-card-text, .corpo-docente-card-btn {
+	margin-top: 80px;
 }
 
 /*
