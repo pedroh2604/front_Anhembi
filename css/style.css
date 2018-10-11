@@ -1,440 +1,350 @@
 /*https://bootsnipp.com/snippets/E10d8*/
-
-/*
-** Imports Font
-*/
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
-/*
-** Body and Text Related
-*/
-.body{
-	font-family: 'Gothic A1', sans-serif;
-	font-size:16px;
-	}
-	p{
-	color:#6c6c6f;
-	font-size:1em;
-	}
-	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
-
+/* ** Imports Font */
+ @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+/* ** Body and Text Related */
+ .body{
+     font-family: 'Gothic A1', sans-serif;
+     font-size:16px;
+}
+ p{
+     color:#6c6c6f;
+     font-size:1em;
+}
+ h1,h2,h3,h4,h5,h6{
+    color:#323233;
+    text-transform:uppercase;
+}
 /* mobile view */
-@media (max-width:500px)
-{
-	.navbar-nav{
-		background-color:#000;
-		border-top:3px solid #fed136;
-		color:#fff;
-		z-index:1;
-		margin-top:5px;
-		}
-	.navbar-nav .nav-item .nav-link{
-	padding: 0.7em 1em!important;
-	font-size: 100%;
-    font-weight: 500;
+ @media (max-width:500px) {
+     .navbar-nav{
+         background-color:#000;
+         border-top:3px solid #fed136;
+         color:#fff;
+         z-index:1;
+         margin-top:5px;
     }
-	.banner-text{
-	padding:150px 0 150px 0;
+     .navbar-nav .nav-item .nav-link{
+         padding: 0.7em 1em!important;
+         font-size: 100%;
+         font-weight: 500;
+    }
+     .banner-text{
+         padding:150px 0 150px 0;
+    }
+     .banner-sub-heading{
+         font-size: 10px;
+         font-weight: 200;
+         line-height: 10px;
+         margin-bottom: 40px;
+    }
 }
-
-.banner-sub-heading{
-	font-size: 10px;
-    font-weight: 200;
-    line-height: 10px;
-    margin-bottom: 40px;
+ @media (max-width:768px){
+    /** ** Banner */
+     .banner-text{
+         padding:150px 0 150px 0;
+    }
+     .banner-sub-heading{
+         font-size: 23px;
+         font-weight: 200;
+         line-height: 23px;
+         margin-bottom: 40px;
+    }
+    /** ** Sobre */
+     .sobre-video {
+         display: none;
+    }
+     .sobre-texto-info, .sobre-texto-btn {
+         margin-left: 90px;
+    }
+     .sobre-img {
+         margin-left: 15px;
+         margin-bottom: 80px;
+         margin-top: 0px;
+    }
+     .sobre-img-1 {
+         display: none;
+    }
+    /** ** Carreira */
+     .carreira-img {
+         margin-left: 15px;
+    }
+     .carreira-text {
+         margin-top: 80px;
+    }
+    /** ** Localização */
+     .localizacao-map-card {
+         margin-left: 25px;
+    }
 }
-
+/* **navbar */
+ .navbar-brand span{
+     color: #fed136;
+     font-size:25px;
+    font-weight:700;
+    letter-spacing:0.1em;
+     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
 }
-
-@media (max-width:768px){
-
-/**
-** Banner
-*/
-	.banner-text{
-		padding:150px 0 150px 0;
+ .navbar-brand {
+     color: #fff;
+     font-size:25px;
+     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+     font-weight:700;
+     letter-spacing:0.1em;
 }
-	
-	.banner-sub-heading{
-		font-size: 23px;
-	    font-weight: 200;
-	    line-height: 23px;
-	    margin-bottom: 40px;
+ .navbar-nav .nav-item .nav-link{
+     padding: 1.1em 1em!important;
+     font-size: 120%;
+     font-weight: 500;
+     letter-spacing: 1px;
+     color: #fff;
+     font-family: 'Gothic A1', sans-serif;
 }
-
-/**
-** Sobre
-*/
-	.sobre-video {
-		display: none;
-	}
-
-	.sobre-texto-info, .sobre-texto-btn {
-		margin-left: 90px;
-	}
-
-	.sobre-img {
-		margin-left: 15px;
-		margin-bottom: 80px;
-		margin-top: 0px;
-	}
-	.sobre-img-1 {
-		display: none;
-	}
-
-/**
-** Carreira
-*/
-	.carreira-img {
-		margin-left: 15px;
-	}
-
-	.carreira-text {
-		margin-top: 80px;
-	}
-
-/**
-** Localização
-*/
-
-	.localizacao-map-card {
-		margin-left: 25px;
-	}
-
+ .navbar-nav .nav-item .nav-link:hover{
+    color:#fed136;
 }
- 
-/*
-**navbar
-*/
-
-.navbar-brand  span{
-	color: #fed136;
-	font-size:25px;font-weight:700;letter-spacing:0.1em;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+ .navbar-expand-md .navbar-nav .dropdown-menu{
+     border-top:3px solid #fed136;
 }
-.navbar-brand {
-	color: #fff;
-	font-size:25px;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
-	font-weight:700;
-	letter-spacing:0.1em;
+ .dropdown-item:hover{
+    background-color:#fed136;
+    color:#fff;
 }
-
-.navbar-nav .nav-item .nav-link{
-	padding: 1.1em 1em!important;
-	font-size: 120%;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #fff;
-   font-family: 'Gothic A1', sans-serif;
+ nav{
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+     -moz-transition: padding-top .3s,padding-bottom .3s;
+     transition: padding-top .3s,padding-bottom .3s;
+     border: none;
 }
-.navbar-nav .nav-item .nav-link:hover{color:#fed136;}
-.navbar-expand-md .navbar-nav .dropdown-menu{
-	border-top:3px solid #fed136;
-}
-.dropdown-item:hover{background-color:#fed136;color:#fff;}
-nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
-    -moz-transition: padding-top .3s,padding-bottom .3s;
-    transition: padding-top .3s,padding-bottom .3s;
-    border: none;
-	}
-	
  .shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #212529;
+     padding-top: 0;
+     padding-bottom: 0;
+     background-color: #212529;
+}
+/* **Header */
+ .banner{
+     background-image: url("../img/header/header-background.jpg");
+    /*background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+    */
+     text-align: center;
+     color: #fff;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-position: center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+ .banner-text{
+     padding:200px 0 150px 0;
+}
+ .banner-heading{
+     font-family: 'Lobster', cursive;
+     font-size: 50px;
+     font-weight: 600;
+     line-height: 100px;
+     margin-bottom: 30px;
+     color:#fff;
+}
+ .banner-sub-heading{
+     font-family: 'Libre Baskerville', serif;
+     font-size: 30px;
+     font-weight: 300;
+     line-height: 30px;
+     margin-bottom: 50px;
+     color:#fff;
+}
+ .btn-banner{
+     padding:5px 20px;
+     border-radius:10px;
+     font-weight:700;
+     line-height:1.5;
+     text-align:center;
+     color:#fff;
+     text-transform:uppercase;
+}
+ .text-intro{
+     width:90%;
+     margin:auto;
+     text-align:center;
+     padding-top:30px;
+}
+/* **Sobre */
+ .sobre-video, .sobre-texto {
+     margin-top: 120px;
+}
+ .sobre-slider {
+     margin-top: 80px;
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+}
+ div.sobre-slider::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+}
+ div.sobre-slider::-webkit-scrollbar-track {
+     border: 1px solid #ccc;
+     border-radius: 10px;
+}
+ div.sobre-slider::-webkit-scrollbar-thumb {
+     background: #0C0900;
+     border-radius: 10px;
+}
+ div.sobre-slider::-webkit-scrollbar-thumb:hover {
+     background: #0C0900;
+}
+ .sobre-card {
+     width: 350px;
+     height: 550px;
+     border-radius: 16px;
+     background-color: #fff;
+     border: solid 1px rgba(46, 46, 71, 0.08);
+     margin-bottom: 40px;
+}
+ .sobre-card-img {
+     object-fit: cover;
+     width: 100%;
+     height: 250px;
+     border-radius: 16px;
+}
+ .sobre-card-title, .sobre-card-text {
+     margin-top: 30px;
+}
+ .sobre-img, .sobre-img-1 {
+     width: 90%;
+     object-fit: contain;
+}
+ .sobre-img-1 {
+     margin-top: 80px;
+}
+ .sobre-porque, .carreira-titulo, .carreira-sub-titulo, .grade-titulo, .corpo-docente-titulo, .intercambio-titulo {
+     margin-top: 80px;
+     margin-bottom: 80px;
+}
+/* **Carreira */
+ .carreira-img {
+     height: 95%;
+     width: 90%;
+}
+/* **Grade */
+ .grade-slider {
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+}
+ div.grade-slider::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+}
+ div.grade-slider::-webkit-scrollbar-track {
+     border: 1px solid #ccc;
+     border-radius: 10px;
+}
+ div.grade-slider::-webkit-scrollbar-thumb {
+     background: #0C0900;
+     border-radius: 10px;
+}
+ div.grade-slider::-webkit-scrollbar-thumb:hover {
+     background: #0C0900;
+}
+ .grade-card {
+     width: 350px;
+     height: 550px;
+     border-radius: 16px;
+     background-color: #fff;
+     border: solid 1px rgba(46, 46, 71, 0.08);
+     margin-bottom: 40px;
+}
+ .grade-card-img {
+     object-fit: cover;
+     width: 100%;
+     height: 250px;
+     border-radius: 16px;
+}
+ .grade-card-title, .grade-card-text {
+     margin-top: 30px;
+}
+/* **Corpo Docente */
+ .corpo-docente-card {
+     width: 350px;
+     height: 680px;
+     border-radius: 16px;
+     background-color: #fff;
+     border: solid 1px rgba(46, 46, 71, 0.08);
+     margin-bottom: 40px;
+}
+ .corpo-docente-card-img {
+     object-fit: cover;
+     width: 120px;
+     height: 120px;
+     border-radius: 50px;
+     margin-top: 10px;
+}
+ .corpo-docente-card-title, .corpo-docente-card-text-1, .corpo-docente-card-btn-1 {
+     margin-top: 20px;
+}
+ .corpo-docente-card-text, .corpo-docente-card-btn {
+     margin-top: 80px;
+}
+/* **Localização */
+ .localizacao-titulo {
+     margin-top: 80px;
+}
+ #paulista1, #paulista2, #vilaOlimpia {
+     margin-top: 50px;
+    /*height: 280px;
+     width: 220px;
+     */
+     width: 300px;
+     height: 500px;
+}
+ .localizacao-map {
+     margin-top: 50px;
+}
+ .localizacao-map-card {
+     margin-top: 30px;
+}
+/* **Intercâmbio */
+ .intercambio-slider {
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+     margin-bottom: 60px;
+}
+ div.intercambio-slider::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+}
+ div.intercambio-slider::-webkit-scrollbar-track {
+     border: 1px solid #ccc;
+     border-radius: 10px;
+}
+ div.intercambio-slider::-webkit-scrollbar-thumb {
+     background: #0C0900;
+     border-radius: 10px;
+}
+ div.intercambio-slider::-webkit-scrollbar-thumb:hover {
+     background: #0C0900;
+}
+ .intercambio-card {
+     width: 350px;
+     height: 550px;
+     border-radius: 16px;
+     background-color: #fff;
+     border: solid 1px rgba(46, 46, 71, 0.08);
+     margin-bottom: 40px;
+}
+ .intercambio-card-img {
+     object-fit: cover;
+     width: 100%;
+     height: 250px;
+     border-radius: 16px;
+}
+ .intercambio-card-title, .intercambio-card-text, .intercambio-card-btn {
+     margin-top: 40px;
+}
+ .intercambio-card-title a {
+     color: black;
 }
 
-/*
-**Header
-*/
-
-.banner{
-	background-image: url("../img/header/header-background.jpg");
-	/*background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');*/
-	text-align: center;
-    color: #fff;
-   
-    background-repeat: no-repeat;
-   	background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.banner-text{
-	padding:200px 0 150px 0;
-}
-.banner-heading{
-	font-family: 'Lobster', cursive;
-	font-size: 50px;
-    font-weight: 600;
-    line-height: 100px;
-    margin-bottom: 30px;
-	color:#fff;
-}
-.banner-sub-heading{
-	font-family: 'Libre Baskerville', serif;
-	font-size: 30px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
-	color:#fff;
-}
-
-.btn-banner{
-	padding:5px 20px;
-	border-radius:10px;
-	font-weight:700;
-	line-height:1.5;
-	text-align:center;
-	color:#fff;
-	text-transform:uppercase;
-}
-.text-intro{
-	width:90%;
-	margin:auto;
-	text-align:center;
-	padding-top:30px;
-}
-
-/*
-**Sobre
-*/
-
-.sobre-video, .sobre-texto {
-	margin-top: 120px;
-}
-
-.sobre-slider {
-	margin-top: 80px;
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
-}
-
-div.sobre-slider::-webkit-scrollbar {
-	width: 10px;
-	height: 10px; 
-}
-
-div.sobre-slider::-webkit-scrollbar-track {
-	border: 1px solid #ccc;
-	border-radius: 10px; 
-}
-
-div.sobre-slider::-webkit-scrollbar-thumb {
-	background: #0C0900;
-	border-radius: 10px; 
-}
-
-div.sobre-slider::-webkit-scrollbar-thumb:hover {
-	background: #0C0900; 
-}
-
-.sobre-card {
-	width: 350px;
-	height: 550px;
-	border-radius: 16px;
-	background-color: #fff;
-	border: solid 1px rgba(46, 46, 71, 0.08);
-	margin-bottom: 40px;
-}
-
-.sobre-card-img {
-	object-fit: cover;
-	width: 100%;
-	height: 250px;
-	border-radius: 16px;
-}
-
-.sobre-card-title, .sobre-card-text {
-	margin-top: 30px;
-}
-
-
-.sobre-img, .sobre-img-1 {
-	width: 90%;
-	object-fit: contain;
-}
-
-.sobre-img-1 {
-	margin-top: 80px;
-}
-
-.sobre-porque, .carreira-titulo, .carreira-sub-titulo, .grade-titulo, .corpo-docente-titulo,
-.intercambio-titulo {
-	margin-top: 80px;
-	margin-bottom: 80px;
-}
-
-/*
-**Carreira
-*/
-
-.carreira-img {
-	height: 95%;
-	width: 90%;
-}
-
-/*
-**Grade
-*/
-
-.grade-slider {
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
-}
-
-div.grade-slider::-webkit-scrollbar {
-	width: 10px;
-	height: 10px; 
-}
-
-div.grade-slider::-webkit-scrollbar-track {
-	border: 1px solid #ccc;
-	border-radius: 10px; 
-}
-
-div.grade-slider::-webkit-scrollbar-thumb {
-	background: #0C0900;
-	border-radius: 10px; 
-}
-
-div.grade-slider::-webkit-scrollbar-thumb:hover {
-	background: #0C0900; 
-}
-
-.grade-card {
-	width: 350px;
-	height: 550px;
-	border-radius: 16px;
-	background-color: #fff;
-	border: solid 1px rgba(46, 46, 71, 0.08);
-	margin-bottom: 40px;
-}
-
-.grade-card-img {
-	object-fit: cover;
-	width: 100%;
-	height: 250px;
-	border-radius: 16px;
-}
-
-.grade-card-title, .grade-card-text {
-	margin-top: 30px;
-}
-
-/*
-**Corpo Docente
-*/
-
-.corpo-docente-card {
-	width: 350px;
-	height: 680px;
-	border-radius: 16px;
-	background-color: #fff;
-	border: solid 1px rgba(46, 46, 71, 0.08);
-	margin-bottom: 40px;
-}
-
-.corpo-docente-card-img {
-	object-fit: cover;
-	width: 120px;
-	height: 120px;
-	border-radius: 50px;
-	margin-top: 10px;
-}
-
-.corpo-docente-card-title, .corpo-docente-card-text-1, .corpo-docente-card-btn-1 {
-	margin-top: 20px;
-}
-
-.corpo-docente-card-text, .corpo-docente-card-btn {
-	margin-top: 80px;
-}
-
-/*
-**Localização
-*/
-
-.localizacao-titulo {
-	margin-top: 80px;
-}
-#paulista1, #paulista2, #vilaOlimpia {
-	margin-top: 50px;
-	/*height: 280px; 
-	width: 220px;  */
-	width: 300px;
-	height: 500px;
-}
-
-.localizacao-map {
-	margin-top: 50px;
-}
-
-.localizacao-map-card {
-	margin-top: 30px;
-}
-
-
-/*
-**Intercâmbio
-*/
-
-.intercambio-slider {
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	margin-bottom: 60px;
-}
-
-div.intercambio-slider::-webkit-scrollbar {
-	width: 10px;
-	height: 10px; 
-}
-
-div.intercambio-slider::-webkit-scrollbar-track {
-	border: 1px solid #ccc;
-	border-radius: 10px; 
-}
-
-div.intercambio-slider::-webkit-scrollbar-thumb {
-	background: #0C0900;
-	border-radius: 10px; 
-}
-
-div.intercambio-slider::-webkit-scrollbar-thumb:hover {
-	background: #0C0900; 
-}
-
-
-.intercambio-card {
-	width: 350px;
-	height: 550px;
-	border-radius: 16px;
-	background-color: #fff;
-	border: solid 1px rgba(46, 46, 71, 0.08);
-	margin-bottom: 40px;
-}
-
-.intercambio-card-img {
-	object-fit: cover;
-	width: 100%;
-	height: 250px;
-	border-radius: 16px;
-}
-
-.intercambio-card-title, .intercambio-card-text, .intercambio-card-btn {
-	margin-top: 40px;
-}
-
-.intercambio-card-title a {
-	color: black;
-}
-
-
-/*
-**Footer
-*/
