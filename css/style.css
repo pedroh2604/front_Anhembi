@@ -36,7 +36,7 @@
 	padding:150px 0 150px 0;
 }
 .banner-heading{
-	font-size: 30px;
+	font-size: 25px;
     line-height: 30px;
     margin-bottom: 20px;
 }
@@ -50,6 +50,10 @@
 }
 
 @media (max-width:768px){
+
+/**
+** Banner
+*/
 	.banner-text{
 	padding:150px 0 150px 0;
 }
@@ -61,13 +65,48 @@
     margin-bottom: 40px;
 }
 
+/**
+** Sobre
+*/
 	.sobre-video {
 		display: none;
 	}
 
+	.sobre-texto-info, .sobre-texto-btn {
+		margin-left: 90px;
+	}
 	.sobre-card {
 		margin-right: 30px;
 	}
+
+	.sobre-img {
+		margin-left: 15px;
+		margin-bottom: 80px;
+		margin-top: 0px;
+	}
+	.sobre-img-1 {
+		display: none;
+	}
+
+/**
+** Carreira
+*/
+	.carreira-img {
+		margin-left: 15px;
+	}
+
+	.carreira-text {
+		margin-top: 80px;
+	}
+
+/**
+** Localização
+*/
+
+	.localizacao-map-card {
+		margin-left: 35px;
+	}
+
 }
  
 /*
