@@ -1,4 +1,4 @@
-/*https://bootsnipp.com/snippets/E10d8*/
+
 /* ** Imports Font */
  @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
 /* ** Body and Text Related */
@@ -123,8 +123,6 @@
 /* **Header */
  .banner{
      background-image: url("../img/header/header-background.jpg");
-    /*background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
-    */
      text-align: center;
      color: #fff;
      background-repeat: no-repeat;
@@ -293,9 +291,6 @@
 }
  #paulista1, #paulista2, #vilaOlimpia {
      margin-top: 50px;
-    /*height: 280px;
-     width: 220px;
-     */
      width: 300px;
      height: 500px;
 }
